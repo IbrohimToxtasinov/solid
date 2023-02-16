@@ -1,18 +1,18 @@
 //I - Interface Segregation
 
-    abstract class Worker {
-    void work();
+abstract class Worker {
+  void work();
 }
 
 abstract class Sleeper {
-    void sleep();
+  void sleep();
 }
 
 class Human implements Worker, Sleeper {
-    void work() => print("I do a lot of work");
-    void sleep() => print("I need 10 hours per night...");
+  void work() => print("I do a lot of work");
+  void sleep() => print("I need 10 hours per night...");
 }
 
 class Robot implements Worker {
-    void work() => print("I always work");
+  void work() => print("I always work");
 }
