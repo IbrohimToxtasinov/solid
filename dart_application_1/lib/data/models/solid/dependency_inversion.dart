@@ -13,10 +13,10 @@ class Bear implements Animal {
   }
 }
 
-class Hours implements Animal {
+class Horse implements Animal {
   @override
   void eat() {
-    print('Hours ovqatlanyapdi');
+    print('Horse ovqatlanyapdi');
   }
 }
 
